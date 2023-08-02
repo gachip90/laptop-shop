@@ -1,0 +1,112 @@
+---------------------------------
+MSI
+---------------------------------
+1. MSI Gaming GF63 Thin 11SC i5 11400H (664VN)
+2. MSI Modern 14 C11M i3 1115G4 (011VN)
+3. MSI Gaming GF63 Thin 11UC i7 11800H (1228VN)
+4. MSI Gaming GF63 Thin 11UC i5 11400H (1230VN)
+5. MSI Gaming GF63 Thin 12VE i5 12450H (460VN)
+6. MSI Modern 15 B7M R5 7530U (231VN)
+7. MSI Modern 15 A5M R7 5700U (237VN)
+
+---------------------------------
+MACBOOK
+---------------------------------
+1. MacBook Air 13 inch M1 2020 7-core GPU
+2. MacBook Pro 16 inch M1 Pro 2021 16 core-GPU
+3. MacBook Air 13 inch M2 2022 8-core GPU
+4. MacBook Pro 13 inch M2 2022 10-core GPU
+5. MacBook Pro 13 inch M2 2022 10-core GPU
+6. MacBook Air 13 inch M2 2022 10-core GPU
+7. MacBook Air 15 inch M2 2023 10-core GPU
+8. MacBook Air 15 inch M2 2023 10-core GPU
+ 
+---------------------------------
+LENOVO
+---------------------------------
+1. Lenovo IdeaPad 1 15AMN7 R5 7520U (82VG0061VN)
+2. Lenovo Ideapad Gaming 3 15IAH7 i5 12500H
+3. Lenovo Ideapad 3 15ITL6 i5 1155G7 (82H803CVVN)
+4. Lenovo Ideapad 3 15IAU7 i3 1215U (82RK001MVN)
+5. Lenovo Ideapad 3 15IAU7 i3 1215U (82RK005LVN)
+6. Lenovo Legion 5 15IAH7 i5 12500H (82RC003WVN)
+7. Lenovo ThinkBook 14 G3 ACL R3 5300U (21A200RWVN)
+8. Lenovo IdeaPad Slim 5 Light 14ABR8 R5 7530U
+9. Lenovo IdeaPad 3 15ITL6 i7 1165G7 (82H803CUVN)
+
+---------------------------------
+ITEL
+---------------------------------
+1. Itel SPIRIT 1 i3 8109U (71006300035)
+2. Itel Spirit 2 i5 1155G7 (71006300202)
+3. Itel Spirit 2 i3 1115G4 (71006300240)
+4. Itel ABLE 1S N4020 (71006300027)
+
+---------------------------------
+HP
+---------------------------------
+1. HP 15s fq2716TU i3 1115G4 (7C0X3PA)
+2. HP 240 G8 i3 1115G4 (6L1A1PA)
+3. HP Pavilion 15 eg2082TU i5 1240P (7C0Q5PA)
+4. HP 245 G9 R5 5625U (6L1N9PA)
+5. HP 240 G9 i5 1235U (6L1Y1PA)
+6. HP 15s fq5078TU i5 1235U (6K798PA)
+7. HP 15s fq5147TU i7 1255U (7C133PA)
+8. HP VICTUS 15 fa0155TX i5 12450H (81P00PA)
+9. HP Pavilion 14 dv2074TU i5 1235U (7C0P3PA)
+10. HP 15s fq5162TU i5 1235U (7C134PA)
+11. HP 240 G9 i5 1235U (6L1Y2PA)
+
+---------------------------------
+DELL
+---------------------------------
+1. Dell Vostro 5620 i5 1240P (V6I5001W1)
+2. Dell Vostro 3520 i3 1215U (V5I3614W1)
+3. Dell Vostro 15 3520 i5 1235U (5M2TT2)
+4. Dell Inspiron 15 3520 i5 1235U (N5I5122W1)
+5. Dell Inspiron 15 3520 i5 1235U (i5U085W11BLU)
+6. Dell Inspiron 16 5620 i7 1255U (N6I7110W1)
+7. Dell Inspiron 15 3520 i3 1215U (71003264)
+8. Dell Inspiron 15 3520 i3 1215U (i3U082W11BLU)
+9. Dell Vostro 3510 i5 1135G7 (P112F002BBL)
+10. Dell Inspiron 5620 i5 1235U (71003903)
+11. Dell Inspiron 16 5620 i5 1235U (P1WKN)
+12. Dell Gaming G15 5511 i5 11400H (70266676)
+
+---------------------------------
+ASUS
+---------------------------------
+1. Asus Vivobook X415EA i3 1115G4 (EK2034W)
+2. Asus Vivobook 15 OLED A1505VA i5 13500H (L1052W)
+3. Asus Vivobook X515EA i3 1115G4 (EJ3948W)
+4. Asus TUF Gaming F15 FX506LHB i5 10300H (HN188W)
+5. Asus Gaming ROG Strix G15 G513IH R7 4800H (HN015W)
+6. Asus Vivobook 15 X1502ZA i5 1240P (EJ120W)
+7. Asus VivoBook X515MA N4020 (BR480W)
+8. Asus Vivobook 14X OLED A1405ZA i5 12500H (KM146W)
+9. Asus Vivobook 15 X1502ZA i7 1260P (EJ582W)
+10. Asus Gaming TUF Dash F15 FX517ZE i5 12450H (HN045W)
+11. Asus Vivobook 15 X1504VA i5 1335U (NJ025W)
+12. Asus Vivobook 14 X1402ZA i5 1240P (EK083W)
+13. Asus Vivobook 14 X1404VA i5 1335U (NK123W)
+
+---------------------------------
+ACER
+---------------------------------
+1. Acer Aspire 3 A315 58 54XF i5 1135G7 (NX.AM0SV.007)
+2. Acer Aspire 3 A315 57 379K i3 1005G1 (NX.KAGSV.001)
+3. Acer Aspire 7 Gaming A715 76G 5132 i5 12450H
+4. Acer Aspire 3 A315 58 589K i5 1135G7 (NX.AM0SV.008)
+5. Acer Aspire 7 Gaming A715 42G R05G R5 5500U
+6. Acer Aspire 3 A314 35 C3KS N5100 (NX.A7SSV.009)
+7. Acer Nitro 5 Gaming AN515 57 5669 i5 11400H
+8. Acer Aspire 3 A315 59 314F i3 1215U (NX.K6TSV.002)
+9. Acer Aspire 3 A315 58 787C i7 1165G7 (NX.ADDSV.00J)
+10. Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H
+11. Acer Aspire 3 A314 35 P3G9 N6000 (NX.A7SSV.007)
+12. Acer Aspire 5 A514 54 511G i5 1135G7 (NX.A28SV.009)
+13. Acer Aspire 3 A315 58 382Z i3 1115G4 (NX.ADDSV.00K)
+14. Acer TravelMate B3 TMB311 31 C2HB N4020 (NX.VNFSV.006)
+15. Acer Swift 3 SF314 512 56QN i5 1240P (NX.K0FSV.002)
+16. Acer Aspire 5 A515 58P 34RJ i3 1315U (NX.KHJSV.003)
+17. Acer Gaming Predator Helios Neo 16 PHN16 71 74BA i7
