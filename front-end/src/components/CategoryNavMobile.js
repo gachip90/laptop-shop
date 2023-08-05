@@ -10,7 +10,7 @@ const CategoryNavMobile = ({ setCatNavMobile }) => {
   // get categories
   const { data } = useFetch("/categories");
   return (
-    <div className="w-full h-full bg-primary p-8">
+    <div className="w-full h-full bg-[#f1f1f1] p-8">
       {/* close icon */}
       <div
         onClick={() => setCatNavMobile(false)}
@@ -26,7 +26,7 @@ const CategoryNavMobile = ({ setCatNavMobile }) => {
               className="uppercase font-medium"
               key={category.id}
             >
-              {category.attributes.title} Cameras
+              Laptop {category.attributes.title}
             </Link>
           );
         })}

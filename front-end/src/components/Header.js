@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 // image
-import Logo from "../img/logo.png";
+import LogoLaptop from "../img/logo_laptop.png";
 // icons
 import { SlBag } from "react-icons/sl";
 import { FiMenu } from "react-icons/fi";
@@ -17,7 +17,7 @@ const Header = () => {
   const { isOpen, setIsOpen, itemsAmount } = useContext(CartContext);
   const [catNavMobile, setCatNavMobile] = useState(false);
   return (
-    <header className="bg-primary py-6 fixed w-full top-0 z-40 lg:relative xl:mb-[30px]">
+    <header className="bg-[#f6cd46] py-6 fixed w-full top-0 z-40 lg:relative xl:mb-[30px]">
       <div className="container mx-auto">
         <div className="flex flex-row gap-4 lg:items-center justify-between mb-4 xl:mb-0">
           {/* menu */}
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           {/* logo */}
           <Link to={"/"}>
-            <img src={Logo} alt="" />
+            <img src={LogoLaptop} alt="" />
           </Link>
           {/* searchform - show only on desktip */}
           <div className="hidden w-full xl:flex xl:max-w-[734px]">
@@ -48,7 +48,7 @@ const Header = () => {
           <div className="flex items-center gap-x-[10px]">
             {/* phone */}
             <div className="hidden xl:flex uppercase">
-              Need help? 123 456 789
+              Gọi mua hàng: 038 296 0875
             </div>
             {/* cart icon */}
             <div
@@ -58,7 +58,7 @@ const Header = () => {
               <SlBag className="text-2xl" />
               {/* amount */}
               <div
-                className="bg-accent text-primary absolute w-[18px] h-[18px]
+                className="bg-[#fff] absolute w-[18px] h-[18px]
               rounded-full top-3 -right-1 text-[13px] flex justify-center
               items-center font-bold tracking-[-0.1em]"
               >

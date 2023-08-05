@@ -12,7 +12,7 @@ const RelatedProducts = ({ categoryTitle }) => {
   return (
     <div className="mb-16">
       <div className="container mx-auto">
-        <h2 className="h2 mb-6 text-center xl:text-left">Related Products</h2>
+        <h2 className="h2 mb-6 text-center xl:text-left">Sản phẩm cùng hãng</h2>
         <ProductSlider data={data} />
       </div>
     </div>

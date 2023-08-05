@@ -10,7 +10,7 @@ const LatestProducts = () => {
   return (
     <div className="mb-16">
       <div className="container mx-auto">
-        <h2 className="h2 mb-6 text-center xl:text-left">Latest Products</h2>
+        <h2 className="h2 mb-6 text-center xl:text-left">Sản phẩm mới nhất</h2>
       </div>
       <ProductSlider data={data} />
     </div>

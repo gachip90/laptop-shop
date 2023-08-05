@@ -5,6 +5,8 @@ import MainSlider from "../components/MainSlider";
 // images
 import PromoImg1 from "../img/promo_img1.png";
 import PromoImg2 from "../img/promo_img2.png";
+import PromoAcer from "../img/promo_img_acer.jpg";
+import PromoAsus from "../img/promo_img_asus.jpg";
 
 const Hero = () => {
   return (
@@ -22,38 +24,44 @@ const Hero = () => {
           {/* promos*/}
           <div className="flex flex-col gap-y-[30px] w-full max-w-lg mx-auto h-[500px]">
             {/* promo 1 */}
-            <div className="grad flex-1 h-[250px] rounded-[8px] overflow-hidden relative p-6">
+            <div className="grad flex flex-1 h-[250px] rounded-[8px] overflow-hidden relative p-6">
               {/* text */}
-              <div className="flex flex-col max-w-[144px] h-full justify-center">
-                <div className="text-[20px] uppercase font-medium leading-tight mb-4">
-                  Save 35% all dslr cameras
+              <div className="flex flex-col max-w-[144px] h-full ssm:mt-1 xl:justify-center">
+                <div className="text-[20px] w-[120px] uppercase font-medium leading-snug mb-4 z-30">
+                  Giảm 15% tất cả laptop acer
                 </div>
-                <a href="#" className="uppercase text-accent">
-                  Shop now
+                <a
+                  href="products/1"
+                  className="uppercase text-[#e00] font-medium"
+                >
+                  Mua ngay
                 </a>
               </div>
               {/* img */}
               <img
-                className="absolute z-20 -top-2 -right-4"
-                src={PromoImg1}
+                className="absolute right-0 w-[150px] h-[150px] ssm:w-[200px] ssm:h-[200px] justify-center z-20"
+                src={PromoAcer}
                 alt=""
               />
             </div>
             {/* promo 2 */}
-            <div className="grad flex-1 h-[250px] rounded-[8px] overflow-hidden relative p-6">
+            <div className="grad flex flex-1 h-[250px] rounded-[8px] overflow-hidden relative p-6">
               {/* text */}
-              <div className="flex flex-col max-w-[144px] h-full justify-center">
-                <div className="text-[20px] uppercase font-medium leading-tight mb-4">
-                  Save 25% all mirroless cameras
+              <div className="flex flex-col max-w-[144px] h-full ssm:mt-1 xl:justify-center">
+                <div className="text-[20px] w-[120px] uppercase font-medium leading-snug mb-4 z-30">
+                  Giảm 10% tất cả laptop asus
                 </div>
-                <a href="#" className="uppercase text-accent">
-                  Shop now
+                <a
+                  href="products/2"
+                  className="uppercase text-[#e00] font-medium"
+                >
+                  Mua ngay
                 </a>
               </div>
               {/* img */}
               <img
-                className="absolute z-20 top-4 -right-6"
-                src={PromoImg2}
+                className="absolute right-0 w-[150px] h-[150px] ssm:w-[200px] ssm:h-[200px] z-20"
+                src={PromoAsus}
                 alt=""
               />
             </div>

@@ -18,7 +18,7 @@ const Search = () => {
   );
   console.log(data);
   return (
-    <div className="mb-[30px] pt-40 lg:pt-4 xl:pt-0">
+    <div className="mb-[30px] pt-40 min-h-[800px] lg:pt-4 xl:pt-0">
       <div className="container mx-auto">
         <div className="flex gap-x-[30px]">
           {/* category nav */}
@@ -27,11 +27,11 @@ const Search = () => {
             {/* title */}
             <div className="py-3 text-xl uppercase text-center lg:text-left">
               {data?.length > 0
-                ? `${data.length} results for ${searchTerm}`
-                : `no results found for ${searchTerm}`}
+                ? `Tìm thấy ${data.length} kết quả với từ khóa "${searchTerm}"`
+                : `Không tìm thấy kết quả nào với từ khóa "${searchTerm}"`}
             </div>
             {/* products grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[15px] md:gap-[30px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[15px] md:gap-[30px]">
               {data?.map((product) => {
                 return <Product product={product} key={product.id} />;
               })}

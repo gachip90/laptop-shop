@@ -9,32 +9,34 @@ import "../slider.css";
 // import required modules
 import { Pagination } from "swiper/modules";
 // img
-import CameraImg from "../img/camera.png";
+import SaleLaptop1 from "../img/sale_latop_1.png";
+import SaleLaptop2 from "../img/sale_laptop_2.png";
+import SaleLaptop3 from "../img/sale_laptop_3.jpg";
 
 // data
 const sliderData = [
   {
-    img: CameraImg,
-    pretitle: "Special offer",
-    titlePart1: "Save 20%",
-    titlePart2: "On your",
-    titlePart3: "first order",
+    img: SaleLaptop1,
+    pretitle: "Ưu đãi đặc biệt",
+    titlePart1: "Flash Sale",
+    titlePart2: "Giảm đến",
+    titlePart3: "40%",
+    btnText: "Mua ngay",
+  },
+  {
+    img: SaleLaptop2,
+    pretitle: "Ưu đãi đặc biệt",
+    titlePart1: "Giảm",
+    titlePart2: "Trực tiếp",
+    titlePart3: "200.000đ",
     btnText: "Shop now",
   },
   {
-    img: CameraImg,
-    pretitle: "Special offer",
-    titlePart1: "Save 20%",
-    titlePart2: "On your",
-    titlePart3: "first order",
-    btnText: "Shop now",
-  },
-  {
-    img: CameraImg,
-    pretitle: "Special offer",
-    titlePart1: "Save 20%",
-    titlePart2: "On your",
-    titlePart3: "first order",
+    img: SaleLaptop3,
+    pretitle: "Ưu đãi đặc biệt",
+    titlePart1: "Tặng Balo",
+    titlePart2: "Trị giá",
+    titlePart3: "300.000đ",
     btnText: "Shop now",
   },
 ];
@@ -46,7 +48,7 @@ const MainSlider = () => {
       pagination={{
         clickable: true,
       }}
-      className="mainSlider h-full bg-primary xl:bg-mainSlider xl:bg-no-repeat
+      className="mainSlider h-full bg-white xl:bg-mainSlider xl:bg-no-repeat
       max-w-lg lg:max-w-none rounded-[8px] overflow-hidden drop-shadow-2x1"
     >
       <>
@@ -61,20 +63,22 @@ const MainSlider = () => {
                   </div>
                   <div
                     className="text-3xl md:text-[46px] font-semibold uppercase
-                  leading-none text-center lg:text-left mb-8 xl:mb-20"
+                    leading-tight text-center lg:text-left mb-8 xl:mb-20"
                   >
                     {slide.titlePart1} <br />
                     {slide.titlePart2} <br />
                     {slide.titlePart3}
                   </div>
-                  <button className="btn btn-accent mx-auto lg:mx-0">
-                    Shop now
-                  </button>
+                  <a href="#">
+                    <button className="btn btn-accent mx-auto lg:mx-0">
+                      Mua ngay
+                    </button>
+                  </a>
                 </div>
                 {/* img */}
                 <div className="flex-1">
                   <img
-                    className="xl:absolute xl:-right-16 xl:-bottom-12"
+                    className="xl:absolute lg:w-[320px] lg:h-[320px] my-5 lg:my-0"
                     src={slide.img}
                     alt=""
                   />

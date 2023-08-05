@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply font-primary bg-body text-white;
+    @apply font-primary bg-[#f1f1f1] text-[#000];
   }
   .h2 {
     @apply text-3xl capitalize;
   }
   .grad {
-    @apply bg-gradient-to-t from-[#1F2126] to-[#33363D] drop-shadow-2xl;
+    @apply bg-white;
   }
   .btn {
     @apply h-[50px] flex justify-center items-center rounded-[8px] px-10 py-[10px] text-sm uppercase font-bold;
