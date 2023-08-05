@@ -33,7 +33,7 @@ const Cart = () => {
 
   return (
     <div className="w-full h-full px-4 text-white">
-      <div className="overflow-y-auto overflow-x-hidden h-[75vh]">
+      <div className="overflow-y-auto overflow-x-hidden h-[75vh] lg:h-[77vh]">
         {/* close icon */}
         <div
           onClick={() => setIsOpen(false)}
@@ -50,16 +50,16 @@ const Cart = () => {
       </div>
       {/* subtotal & total */}
       {cart.length >= 1 && (
-        <div className="px-6 py-10 flex flex-col">
+        <div className="px-4 py-6 ssm:px-6 ssm:py-10 flex flex-col">
           {/* subtotal */}
-          <div className="flex justify-between text-lg">
-            <div>Subtotal</div>
-            <div>$ {total}</div>
+          <div className="hidden md:flex justify-between text-lg mb-5">
+            <div>Tạm tính</div>
+            <div>{total} $</div>
           </div>
           {/* total */}
-          <div className="flex justify-between text-2xl">
-            <div>Total</div>
-            <div>$ {total}</div>
+          <div className="flex justify-between text-[18px] ssm:text-[20px] md:text-[24px]">
+            <div>Tổng cộng</div>
+            <div>{total} $</div>
           </div>
         </div>
       )}
@@ -71,14 +71,14 @@ const Cart = () => {
               onClick={clearCart}
               className="btn btn-accent hover:bg-accent-hover text-primary"
             >
-              clear cart
+              Xóa
             </button>
             <button
               onClick={handlePayment}
               className="btn btn-accent hover:bg-accent-hover text-primary
             flex-1 px-2 gap-x-2"
             >
-              Checkout
+              Thanh toán
               <IoArrowForward className="text-lg" />
             </button>
           </div>
@@ -87,7 +87,7 @@ const Cart = () => {
             className="h-full bg-pink-200/10 absolute top-0 right-0 left-0
           flex justify-center items-center -z-10 flex-col text-white/30"
           >
-            <div className="text-2xl">Your cart is empty</div>
+            <div className="text-2xl">Giỏ hàng của bạn còn trống</div>
             <div className="text-6xl">
               <IoCartOutline />
             </div>

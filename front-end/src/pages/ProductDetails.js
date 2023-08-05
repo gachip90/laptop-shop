@@ -56,11 +56,10 @@ const ProductDetails = () => {
                 </p>
               );
             })}
-            {/* <p className="mb-12">{data[0].attributes.description}</p> */}
             {/* price & btn */}
             <div className="flex items-center gap-x-4 ssm:gap-x-8 mt-8">
               {/* price */}
-              <div className="text-xl ssm:text-2xl md:text-3xl text-primary font-semibold">
+              <div className="text-xl ssm:text-2xl md:text-3xl text-primary font-semibold min-w-[60px]">
                 {data[0].attributes.price} $
               </div>
               <button
