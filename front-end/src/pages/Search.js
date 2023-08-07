@@ -11,12 +11,10 @@ const Search = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const searchTerm = searchParams.get("query");
-  console.log(searchTerm);
   // get products based on search term
   const { data } = useFetch(
     `/products?populate=*&filters[title][$contains]=${searchTerm}`
   );
-  console.log(data);
   return (
     <div className="mb-[30px] pt-40 min-h-[800px] lg:pt-4 xl:pt-0">
       <div className="container mx-auto">

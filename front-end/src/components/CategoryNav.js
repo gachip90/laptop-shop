@@ -7,7 +7,6 @@ import { Link, useParams } from "react-router-dom";
 const CategoryNav = () => {
   const { data } = useFetch("/categories");
   const { id } = useParams();
-  // console.log(id);
   return (
     <aside className="hidden xl:flex">
       <div className="bg-white flex flex-col w-[286px] h-[500px] rounded-[8px] overflow-hidden">
